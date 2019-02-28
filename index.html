@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Framework 7</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/framework7.min.css" rel="stylesheet">
+	<link href="css/f7-icons.css" rel="stylesheet">
+	<link href="css/material-icons.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+		  
+ </head>
+
+<body class="color-theme-red">
+	<!-- App root element -->
+    <section id="app">
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+		<section class="panel panel-left panel-cover">
+		<div class="block">
+			<div class="row">
+			<article class="col-30">
+				<img src="img/peter.jpg" alt="peter" class="img-fluid">
+				</article>
+				
+				<article class="col-70 perfil">
+				<h3>Peter Parker</h3>
+					<p>Queens, New York City</p>
+				</article>
+			</div>
+			</div>
+			
+			<div class="block">
+			<div class="list media-list">
+				<ul>
+				<li> 
+					<a href="/home/" class="item-content item-link panel-close">
+					<div class="item-media">
+						<i class="material-icons">home</i>
+						</div>
+						<div class="item-inner">
+						<div class="item-title">
+							Home
+						</div>
+							</div>
+					</a>
+					</li>
+					<li> 
+					<a href="/listas/" class="item-content item-link panel-close">
+					<div class="item-media">
+						<i class="material-icons">note</i>
+						</div>
+						<div class="item-inner">
+						<div class="item-title">
+							Article
+						</div>
+							</div>
+					</a>
+					</li>
+					<li> 
+					<a href="#" class="item-content item-link">
+					<div class="item-media">
+						<i class="material-icons">videocam</i>
+						</div>
+						<div class="item-inner">
+						<div class="item-title">
+							Video
+						</div>
+							</div>
+					</a>
+					</li>
+					<li> 
+					<a href="#" class="item-content item-link">
+					<div class="item-media">
+						<i class="material-icons">email</i>
+						</div>
+						<div class="item-inner">
+						<div class="item-title">
+							Messages
+							<span class="badge color-red">5</span>
+							</div>
+						</div>
+					</a>
+					</li>
+					<li> 
+					<a href="#" class="item-content item-link">
+					<div class="item-media">
+						<i class="material-icons">notifications</i>
+						</div>
+						<div class="item-inner">
+						<div class="item-title">
+							Notifications
+							<span class="badge color-red">12753</span>
+							</div>
+						</div>
+					</a>
+					</li>
+					<li> 
+					<a href="#" class="item-content item-link">
+					<div class="item-media">
+						<i class="material-icons">settings</i>
+						</div>
+						<div class="item-inner">
+						<div class="item-title">
+							Settings
+						</div>
+							</div>
+					</a>
+					</li>
+					<li> 
+					<a href="#" class="item-content item-link">
+					<div class="item-media">
+						<i class="material-icons">exit_to_app</i>
+						</div>
+						<div class="item-inner">
+						<div class="item-title">
+							Log Out
+						</div>
+							</div>
+					</a>
+					</li>
+				</ul>
+				</div>
+			</div>
+		</section>
+
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main view-init">
+        <!-- Initial Page, "data-name" contains page name -->
+        <section data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-inner">
+				<div class="left">
+				<a class="link panel-open" data-panel="left"><i class="material-icons">
+menu
+</i></a>
+				</div>
+              <div class="title">Awesome App</div>
+            </div>
+          </nav>
+			
+			<div class="tabbar toolbar">
+			<div class="toolbar-inner">
+				<a href="/listas/" class="tab-link">Listas</a>
+				<a href="/cards/" class="tab-link">Cards</a>
+				</div>
+			</div>
+
+			
+          <!-- Scrollable page content -->
+          <div class="page-content">
+           <h2 class="block-title">Titulo de contenido</h2>
+			  <div class="block">
+			  <p>Lorem ipsum dolor sit amet consectetur adipiscing elit suspendisse, scelerisque urna leo ad nullam auctor accumsan nascetur gravida, neque nunc mus dui pretium integer cum</p>
+			  </div>
+			  
+			  <h2 class="block-title">
+			  Header/Footer
+			  </h2>
+			  
+			  <div class="block block-strong">
+			  <h3 class="block-header">Header</h3>
+				  <p>Lorem ipsum dolor sit amet consectetur adipiscing elit suspendisse, scelerisque urna leo ad nullam auctor accumsan nascetur gravida, neque nunc mus dui pretium integer cum. Conubia maecenas gravida est hac eleifend nulla egestas vel viverra curabitur eros, vulputate aenean neque quam condimentum et porttitor justo nec platea, duis facilisis parturient turpis tincidunt non primis montes velit netus</p>
+				  
+				  <h3 class="block-footer">Footer</h3>
+			  </div>
+			  
+			  <div class="block">
+			  <a href="/listas/" class="link">Listas</a>
+			  </div>
+			  
+			  <div class="block">
+			  <a href="/cards/" class="link">Cards</a>
+			  </div>
+			  
+			   <div class="block">
+			  <a href="/tabs/" class="link">Tabs</a>
+			  </div>
+            <!-- Link to another page -->
+            <a href="/about/">About app</a>
+          </div>
+        </section>
+      </div>
+    </section>
+	
+	
+	
+	<script src="js/framework7.min.js"></script>
+	<script src="js/my-app.js"></script>
+</body>
+</html>
